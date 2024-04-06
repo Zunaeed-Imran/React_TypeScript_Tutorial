@@ -1,13 +1,16 @@
 
 import './App.css'
-import User from './components/Built_in_Prop/User'
+import User3 from './components/UserDefineProps/User3'
+// import User from './components/Built_in_Prop/User'
 
 function App() {
 
 
   return (
     <>
-      <User/>
+      {/* <User/> */}
+
+      <User3/>
     </>
   )
 }

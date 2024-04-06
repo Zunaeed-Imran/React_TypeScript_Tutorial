@@ -13,5 +13,7 @@ React_TypeScript_Tutorial
 - Learn React-TypeScript Introduction | Environment setup.
 - setup the environment of React-TypeScript.
 - Learning built in Props types React-TypeScript.
-- Practicing built in Props types in React-TypeScript.
+- Practicing string,number, boolean, Props types in React-TypeScript.
+- Learning react-typescript user-defined Props types (part-1).
+- Practicing Array props, object props in react-typescript.
 - 
