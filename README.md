@@ -20,3 +20,5 @@ React_TypeScript_Tutorial
 - Practicing array of Object in react typescript.
 - Learning React-TypeScript user-defined Props types (part-3).
 - Practicing Union Props Type.
+- Learning React-TypeScript typing children props.
+- Practicing 

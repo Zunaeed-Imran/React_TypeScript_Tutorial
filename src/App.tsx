@@ -1,6 +1,7 @@
 
 import './App.css'
-import UnionProp from './components/UnionPropsType/UnionProp'
+import CHildren_Props from './components/ChildrenProps/CHildren_Props'
+// import UnionProp from './components/UnionPropsType/UnionProp'
 // import Array_Object from './components/ArrayOfObject/Array_Object'
 // import User3 from './components/UserDefineProps/User3'
 // import User from './components/Built_in_Prop/User'
@@ -16,7 +17,9 @@ function App() {
 
       {/* <Array_Object/> */}
 
-      <UnionProp/>
+      {/* <UnionProp/> */}
+
+      <CHildren_Props/>
     </>
   )
 }
