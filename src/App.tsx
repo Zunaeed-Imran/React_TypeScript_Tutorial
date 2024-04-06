@@ -1,6 +1,7 @@
 
 import './App.css'
-import User3 from './components/UserDefineProps/User3'
+import Array_Object from './components/ArrayOfObject/Array_Object'
+// import User3 from './components/UserDefineProps/User3'
 // import User from './components/Built_in_Prop/User'
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
     <>
       {/* <User/> */}
 
-      <User3/>
+      {/* <User3/> */}
+
+      <Array_Object/>
     </>
   )
 }

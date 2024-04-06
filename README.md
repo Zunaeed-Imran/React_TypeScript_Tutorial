@@ -16,4 +16,6 @@ React_TypeScript_Tutorial
 - Practicing string,number, boolean, Props types in React-TypeScript.
 - Learning react-typescript user-defined Props types (part-1).
 - Practicing Array props, object props in react-typescript.
+- Learning user-defined Props types (part-2).
+- Practicing array of Object in react typescript.
 - 
