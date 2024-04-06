@@ -1,2 +1,17 @@
 # React_TypeScript_Tutorial
 React_TypeScript_Tutorial
+
+
+
+
+### Install Process.
+- the process is same as react but have to chooes typeScript when we install.
+
+
+
+#### Done task for today
+- Learn React-TypeScript Introduction | Environment setup.
+- setup the environment of React-TypeScript.
+- Learning built in Props types React-TypeScript.
+- Practicing built in Props types in React-TypeScript.
+- 
