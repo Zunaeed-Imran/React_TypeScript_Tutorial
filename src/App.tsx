@@ -1,6 +1,7 @@
 
 import './App.css'
-import CHildren_Props from './components/ChildrenProps/CHildren_Props'
+import StyleProps from './components/StyleProps/StyleProps'
+// import CHildren_Props from './components/ChildrenProps/CHildren_Props'
 // import UnionProp from './components/UnionPropsType/UnionProp'
 // import Array_Object from './components/ArrayOfObject/Array_Object'
 // import User3 from './components/UserDefineProps/User3'
@@ -19,7 +20,9 @@ function App() {
 
       {/* <UnionProp/> */}
 
-      <CHildren_Props/>
+      {/* <CHildren_Props/> */}
+
+      <StyleProps/>
     </>
   )
 }

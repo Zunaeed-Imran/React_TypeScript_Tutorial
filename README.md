@@ -24,4 +24,6 @@ React_TypeScript_Tutorial
 
 - Learning React-TypeScript typing children props.
 - Practicing card children props.
+- Learning React-TypeScript typing style props.
+- Practicing Passing the style by using props.
 - 
