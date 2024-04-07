@@ -1,6 +1,7 @@
 
 import './App.css'
-import TypingUseState from './components/TypingUseState/TypingUseState';
+import TypingEvent from './components/TypingEvent/TypingEvent';
+// import TypingUseState from './components/TypingUseState/TypingUseState';
 // import StyleProps from './components/StyleProps/StyleProps'
 // import CHildren_Props from './components/ChildrenProps/CHildren_Props'
 // import UnionProp from './components/UnionPropsType/UnionProp'
@@ -25,7 +26,9 @@ function App() {
 
       {/* <StyleProps/> */}
 
-      <TypingUseState/>
+      {/* <TypingUseState/> */}
+
+      <TypingEvent/>
     </>
   );
 }

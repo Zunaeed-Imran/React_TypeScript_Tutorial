@@ -29,4 +29,6 @@ React_TypeScript_Tutorial
 - Learning React-TypeScript typing useState Hook.
 - Practicing typing useState Hook. 
 - Learning React-TypeScript Typing events.
+- Practicing type of element in typescript.
+- Learning React-TypeScript typing form event.
 - Practicing 
