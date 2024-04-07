@@ -32,4 +32,5 @@ React_TypeScript_Tutorial
 - Practicing  element in onclick, onchange event.
 - Learning React-TypeScript typing form event.
 - Practicing onSubmit Event in form.
-- 
+- Learning React-TypeScript typing useReducer hook.
+- Practicing typing useReducer hook.

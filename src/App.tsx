@@ -1,6 +1,7 @@
 
 import './App.css'
-import TypingFormEvent from './components/TypingFormEvent/TypingFormEvent';
+import UseReducer from './components/UseReducer/UseReducer';
+// import TypingFormEvent from './components/TypingFormEvent/TypingFormEvent';
 // import TypingEvent from './components/TypingEvent/TypingEvent';
 // import TypingUseState from './components/TypingUseState/TypingUseState';
 // import StyleProps from './components/StyleProps/StyleProps'
@@ -31,7 +32,9 @@ function App() {
 
       {/* <TypingEvent/> */}
 
-      <TypingFormEvent/>
+      {/* <TypingFormEvent/> */}
+
+      <UseReducer/>
     </>
   );
 }
