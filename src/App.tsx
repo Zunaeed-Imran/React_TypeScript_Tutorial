@@ -1,6 +1,7 @@
 
 import './App.css'
-import StyleProps from './components/StyleProps/StyleProps'
+import TypingUseState from './components/TypingUseState/TypingUseState';
+// import StyleProps from './components/StyleProps/StyleProps'
 // import CHildren_Props from './components/ChildrenProps/CHildren_Props'
 // import UnionProp from './components/UnionPropsType/UnionProp'
 // import Array_Object from './components/ArrayOfObject/Array_Object'
@@ -22,9 +23,11 @@ function App() {
 
       {/* <CHildren_Props/> */}
 
-      <StyleProps/>
+      {/* <StyleProps/> */}
+
+      <TypingUseState/>
     </>
-  )
+  );
 }
 
 export default App

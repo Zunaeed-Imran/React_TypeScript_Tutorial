@@ -26,4 +26,7 @@ React_TypeScript_Tutorial
 - Practicing card children props.
 - Learning React-TypeScript typing style props.
 - Practicing Passing the style by using props.
-- 
+- Learning React-TypeScript typing useState Hook.
+- Practicing typing useState Hook. 
+- Learning React-TypeScript Typing events.
+- Practicing 
