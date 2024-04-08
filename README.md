@@ -2,6 +2,9 @@
 React_TypeScript_Tutorial
 
 
+## Some Important node.
+- when we need to pass data from child to parent props
+  we need to make a function in the parent to reacive data.
 
 
 ### Install Process.

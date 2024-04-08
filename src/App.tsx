@@ -33,11 +33,16 @@ const todosData = [
 
 function App() {
 
-  const [todos] = useState(todosData);
+  const [todos, setTodos] = useState(todosData);
+
+  const handleDeleteTodo = (id: string) => {
+    const filterTodos = todos.filter(todo => todo.id !== id);
+    setTodos(filterTodos);
+  }
 
   return (
     <>
-      <Todos todos={todos} />
+      <Todos todos={todos} handleDeleteTodo={handleDeleteTodo} />
     </>
   );
 }
