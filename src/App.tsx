@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './App.css'
 import Todos from './Components/Todos';
+import AddTodo from './Components/AddTodo';
+import { todoType } from './types/types';
 
 
 const todosData = [
@@ -40,8 +42,14 @@ function App() {
     setTodos(filterTodos);
   }
 
+  const handleAddNewTodo = (newTodo: todoType) => {
+    console.log(newTodo);
+    setTodos((prevState) => [...prevState, newTodo]);
+  };
+
   return (
     <>
+      <AddTodo handleAddNewTodo={handleAddNewTodo} />
       <Todos todos={todos} handleDeleteTodo={handleDeleteTodo} />
     </>
   );

@@ -1,6 +1,6 @@
 import { todoTypeprops} from "../types/types";
 
-
+ 
 
 
   const DeleteTodo = (id: string) => {
