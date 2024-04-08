@@ -34,3 +34,8 @@ React_TypeScript_Tutorial
 - Practicing onSubmit Event in form.
 - Learning React-TypeScript typing useReducer hook.
 - Practicing typing useReducer hook.
+
+
+
+- Practicing React-TypeScript Todo App Project.
+- 

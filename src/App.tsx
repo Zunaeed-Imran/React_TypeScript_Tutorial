@@ -33,7 +33,7 @@ const todosData = [
 
 function App() {
 
-  const [todos, setTodos] = useState(todosData);
+  const [todos] = useState(todosData);
 
   return (
     <>

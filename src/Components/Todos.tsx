@@ -1,3 +1,4 @@
+import Todo from "./Todo";
 
 
 type todosType = {
@@ -12,7 +13,7 @@ const Todos = (props: todosType) => {
 
   return (
     <>
-      {props.todos}
+      {props.todos.map(todo => <Todo key={todo.id} todo={todo}/>)}
     </>
   )
 }
