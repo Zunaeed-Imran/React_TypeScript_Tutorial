@@ -1,15 +1,13 @@
+import { todoType } from "../types/types";
 import Todo from "./Todo";
 
 
-type todosType = {
-  todos:{
-  id: string;
-  title: string;
-}[];
+type todosTypeprops = {
+  todos: todoType[];
 };
 
 
-const Todos = (props: todosType) => {
+const Todos = (props: todosTypeprops) => {
 
   return (
     <>

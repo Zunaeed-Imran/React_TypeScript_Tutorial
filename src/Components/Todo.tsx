@@ -1,13 +1,10 @@
+import { todoType } from "../types/types";
 
-type todoType = {
-  todo: {
-    id: string;
-    title: string;
-  };
+type todoTypeprops = {
+  todo: todoType;
 };
 
-
-const Todo = (props: todoType) => {
+const Todo = (props: todoTypeprops) => {
   const { id, title } = props.todo;
   return (
     <>
@@ -16,7 +13,7 @@ const Todo = (props: todoType) => {
         <h3>{title}</h3>
       </article>
     </>
-  )
-}
+  );
+};
 
 export default Todo;
