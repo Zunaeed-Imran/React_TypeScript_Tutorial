@@ -1,24 +1,20 @@
-import { todoTypeprops} from "../types/types";
-
- 
+import { todoTypeprops } from '../types/types';
 
 
-  const DeleteTodo = (id: string) => {
-    console.log(id);
-  };
-
-  
-  const Todo = (props: todoTypeprops) => {
-    const { id, title } = props.todo;
-    props.handleDeleteTodo(id); 
-    return (
+const Todo = (props: todoTypeprops) => {
+  const { id, title } = props.todo;
+  return (
     <>
       <article>
         <h3>{id}</h3>
         <h3>{title}</h3>
-        <button onClick={() => {
-          DeleteTodo(id)
-        }}>Delete</button>
+        <button
+          onClick={() => {
+            props.handleDeleteTodo(id); // Call handleDeleteTodo only when the button is clicked
+          }}
+        >
+          Delete
+        </button>
       </article>
     </>
   );

@@ -1,23 +1,27 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+import { ChangeEvent, FormEvent, useState } from 'react';
+
+type Todo = {
+  id: string;
+  title: string;
+};
 
 type Props = {
-  handleAddNewTodo: Function;
+  handleAddNewTodo: (newTodo: Todo) => void;
 };
 
 const AddTodo = (props: Props) => {
-
-  const [title, setTitle] = useState("");
+  const [title, setTitle] = useState('');
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setTitle(event.target.value)
-  }
+    setTitle(event.target.value);
+  };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const newTodo = { id: new Date().getTime().toString(), title }
+    const newTodo: Todo = { id: new Date().getTime().toString(), title };
     props.handleAddNewTodo(newTodo);
-    setTitle("");
-  }
+    setTitle('');
+  };
 
   return (
     <>
@@ -32,13 +36,13 @@ const AddTodo = (props: Props) => {
             value={title}
             onChange={handleChange}
             required
-            autoFocus />
+            autoFocus
+          />
         </div>
-        <button type="submit">Add Todo</button>
-        
+        <button>Add Todo</button>
       </form>
     </>
-  )
-}
+  );
+};
 
 export default AddTodo;
